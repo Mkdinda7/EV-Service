@@ -2,7 +2,7 @@
 import './App.css'
 import About from './Components/about/About'
 import Banner from './Components/banner/banner'
-import CTA from './Components/cta/CTA'
+import CTA from './Components/cta/Cta'
 import Features from './Components/features/Features'
 import Footer from './Components/footer/Footer'
 import Nav from './Components/nav/Nav'

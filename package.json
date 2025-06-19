@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.2.0",
     "cors": "^2.8.5",
     "lite-server": "^2.6.1",
     "react": "^18.3.1",
