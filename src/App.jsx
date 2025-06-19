@@ -1,6 +1,6 @@
 
 import './App.css'
-import About from './Components/About/About'
+import About from './Components/about/About'
 import Banner from './Components/banner/banner'
 import CTA from './Components/CTA/CTA'
 import Features from './Components/Features/Features'
