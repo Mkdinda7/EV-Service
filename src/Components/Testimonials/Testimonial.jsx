@@ -1,5 +1,5 @@
 import React from 'react'
-import testyCss from './../Testimonials/Testimonial.module.css'
+import testyCss from './../Testimonials/Testimonial.css'
 
 
 import testimony_img1 from './../../assets/user-01.jpg'

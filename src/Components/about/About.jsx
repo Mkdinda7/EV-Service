@@ -1,5 +1,5 @@
 import React from "react";
-import aboutCss from './../about/about.module.css'
+import aboutCss from './../about/about.css'
 import abtimg from '../../assets/about-img-.jpg'
 import abtimg2 from '../../assets/about-img-1.jpg'
 import about_card_img1 from '../../assets/about-card01.png'

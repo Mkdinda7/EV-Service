@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import navCss from './../nav/Nav.module.css' ;
+import navCss from './../nav/Nav.css' ;
 
 function Nav() {
 

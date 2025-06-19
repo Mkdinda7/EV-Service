@@ -1,5 +1,5 @@
 import React from "react";
-import bannerCss from './../banner/banner.module.css';
+import bannerCss from './../banner/banner.css';
 import client1 from './../../assets/user-01.jpg'
 import client2 from './../../assets/user-02.jpg'
 import client3 from './../../assets/user-03.jpg'
