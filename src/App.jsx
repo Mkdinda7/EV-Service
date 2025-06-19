@@ -5,7 +5,7 @@ import Banner from './Components/banner/banner'
 import CTA from './Components/cta/CTA'
 import Features from './Components/features/Features'
 import Footer from './Components/footer/Footer'
-import Nav from './Components/navbar/Nav'
+import Nav from './Components/nav/Nav'
 import Services from './Components/services/Services'
 import Testimonial from './Components/testimonials/Testimonial'
 
