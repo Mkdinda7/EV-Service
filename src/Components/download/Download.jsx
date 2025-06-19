@@ -1,5 +1,5 @@
 import React from 'react'
-import ctaCss from './../cta/Cta.css'
+import ctaCss from './Download.css'
 
 import ctaImg from './../../assets/cta_image.png'
 
