@@ -1,0 +1,242 @@
+.Service_wrapper{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+.Service_wrapper h2{
+    font-size: 35px;
+}
+
+.service_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.service_container .service_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+
+.service_container .service_cards img{
+    padding: 8px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    background-color: #96e64c;
+}
+
+.service_container .service_cards h3{
+    font-size: 20px;
+    margin-top: 12px 0;
+}
+
+.service_container .service_cards p{
+    font-size: 15px;
+    color: rgba(131, 131, 131, 0.8);
+    font-weight: 500;
+}
+
+
+#serviceImg{
+    height: 600px;
+}
+
+.service_container .service_cards:nth-of-type(1) .service_card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service_container .service_cards:nth-of-type(1) .service_card p,
+.service_container .service_cards:nth-of-type(1) .service_card h3{
+    text-align: start;
+}
+
+.service_container .service_cards:nth-of-type(2) .service_card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.service_container .service_cards:nth-of-type(2) .service_card p,
+.service_container .service_cards:nth-of-type(2) .service_card h3{
+    text-align: end;
+}
+
+.service_card{
+   padding: 20px 10px;
+   background: linear-gradient(0deg, #96e64c, transparent);
+   border-radius: 12px;
+   position: relative;
+   z-index: 1;
+   cursor: pointer;
+}
+
+.service_card::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -0.5%;
+    left: 0.5%;
+    background-color: #000;
+    height: 99%;
+    width: 99%;
+    border-radius: 8px;
+    border: 1px solid rgba(131, 131, 131, 0.2);
+}
+
+.service_card:hover{
+    color: white;
+    background-color: var(--primary-color);
+    transition: all 1s ease;
+    img{
+        background-color: #000;
+    }
+    &::after{
+        display: none;
+    }
+
+    p{
+        color: #000;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #serviceImg{
+        order: 1;
+        width: 30% !important;
+    }
+
+
+   .service_container{
+        display: flex;
+        gap: 20px !important;
+
+        .service_cards{
+            display: flex;
+            gap: 20px;
+            width: 38% !important;
+        }
+    }
+
+}
+
+
+@media screen and (max-width:991px) {
+    #serviceImg{
+        display: none;
+    }
+
+
+   .service_container{
+        display: flex;
+        gap: 20px !important;
+
+        .service_cards{
+            display: flex;
+            gap: 20px;
+            width: 48% !important;
+        }
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+    
+   
+   .service_container{
+        display: flex;
+        gap: 20px !important;
+
+        .service_cards{
+            display: flex;
+            gap: 20px;
+            width: 48% !important;
+        }
+    }
+
+    .service_card {
+        img{
+            height: 55px;
+        }
+        h3{
+            font-size: 18px !important;
+        }
+
+        p{
+            font-size: 13px !important;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    .Service_wrapper{
+        h2{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 14px !important;
+        }
+    }
+   
+    .service_card {
+        img{
+            height: 55px;
+        }
+        h3{
+            font-size: 18px !important;
+        }
+ 
+        p{
+            font-size: 13px !important;
+        }
+    }
+
+    .service_card:hover{
+        color: white;
+        background-color: var(--primary-color);
+        img{
+            background-color: #000;
+        }
+        &::after{
+            display: none;
+        }
+
+        p{
+            color: #000;
+        }
+    }
+
+
+   .service_container{
+        flex-direction: column;
+   }
+
+   .service_container .service_cards{
+        padding: 0px;
+        width: 100% !important;
+        
+        .service_card{
+            width: 100% !important;
+        }
+
+   }
+
+   .service_container .service_cards:nth-of-type(2) .service_card{
+        align-items: flex-start;
+    }
+
+    .service_container .service_cards:nth-of-type(2) .service_card p,
+    .service_container .service_cards:nth-of-type(2) .service_card h3{
+       text-align: start;
+    }
+
+    
+}
