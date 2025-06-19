@@ -6,7 +6,7 @@ import service_card_img3 from '../../assets/service_card_img_3.png'
 import service_card_img4 from '../../assets/service_card_img_4.png'
 
 
-import Img_service from '../../assets/serviceimg.png'
+import Img_service from '../../assets/service-img.png'
 // import service_element from '../../assets/service_element.png'
 
 
