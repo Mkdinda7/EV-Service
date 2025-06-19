@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import navCss from './Nav.css' ;
+import navCss from './Header.css' ;
 
-function Nav() {
+function Header() {
 
     const menu = useRef();
 
@@ -31,4 +31,4 @@ function Nav() {
     )
 }
 
-export default Nav ;
+export default Header ;
