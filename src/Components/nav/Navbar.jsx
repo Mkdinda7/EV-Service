@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import navCss from './Nav.css' ;
 
-function Nav() {
+function Navbar() {
 
     const menu = useRef();
 
@@ -31,4 +31,4 @@ function Nav() {
     )
 }
 
-export default Nav ;
+export default Navbar ;
