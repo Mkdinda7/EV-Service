@@ -2,12 +2,12 @@
 import './App.css'
 import About from './Components/about/About'
 import Banner from './Components/banner/banner'
-import CTA from './Components/CTA/CTA'
-import Features from './Components/Features/Features'
-import Footer from './Components/Footer/Footer'
+import CTA from './Components/cta/CTA'
+import Features from './Components/features/Features'
+import Footer from './Components/footer/Footer'
 import Nav from './Components/navbar/Nav'
-import Services from './Components/Services/Services'
-import Testimonial from './Components/Testimonials/Testimonial'
+import Services from './Components/services/Services'
+import Testimonial from './Components/testimonials/Testimonial'
 
 
 function App() {
